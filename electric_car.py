@@ -99,7 +99,7 @@ def elec_exe():
     elif menu == '2022년 분기별 분석' :
         quarter_mean(df_melt)           #2022년 분기별 분석
     else : 
-        st.image('data/mojiseuyangjang5.jpg', width=900)   #이미지 크기 width=500
+        st.image('mojiseuyangjang5.jpg', width=900)   #이미지 크기 width=500
 
 if __name__=='__main__':  #외부에서 호출 할때는 안 된다
    elec_exe()  
