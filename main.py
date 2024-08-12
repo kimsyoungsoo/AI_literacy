@@ -10,7 +10,7 @@ user_pw=st.sidebar.text_input('패스워드 입력',value='',type='password')
 
 if user_id == 'abc' and user_pw =='1234' :
    st.sidebar.title('>> 0soo의 포트폴리오')
-  #st.image('data\mojiseuyangjang5.jpg')
+  #st.image('mojiseuyangjang5.jpg')
 
    menu=st.sidebar.radio('메뉴선택',['파이썬기초','탐색적 분석 : 전기자동차 분석','머신러닝','파이썬기초 미니프로젝트'],index=None)
    st.sidebar.write(menu)
