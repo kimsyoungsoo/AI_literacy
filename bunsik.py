@@ -37,8 +37,8 @@ def bunsik(): 			# 분식함수 정의
             st.write("예산에 맞는 메뉴예요:")
             st.writet("*"*75)
             for item in kk:					      # 예산에 맞는 메뉴를 ‘가격, 메뉴 이름, 음식점 이름, 주소’ 내용으로
-                print(f"{item[0]} \"{item[1]}\" {item[2]} {item[3]}")
-            st.writet("*"*75)
+                st.write(f"{item[0]} \"{item[1]}\" {item[2]} {item[3]}")
+            st.write("*"*75)
             available = True              # 예산에 맞는 메뉴를 찾았음을 표시
 
         if available:
