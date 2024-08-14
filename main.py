@@ -30,7 +30,7 @@ if user_id == 'abc' and user_pw =='1234' :
           st.wrtie('김')
       with tab2:
           st.wrtie('영')
-     with tab2:
+      with tab3:
           st.wrtie('수')
       
      
