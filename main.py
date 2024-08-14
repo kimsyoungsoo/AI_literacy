@@ -24,7 +24,7 @@ if user_id == 'abc' and user_pw =='1234' :
    elif menu == '파이썬기초 미니프로젝트': 
      fm.food_main()
    elif menu == '김영수를 소개합니다':
-      menu=st.radio('김영수',['김','영','수'],index=None)
+      menu = st.radio('김영수',['김','영','수'],index=None)
      
   
                      
