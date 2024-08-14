@@ -26,11 +26,11 @@ if user_id == 'abc' and user_pw =='1234' :
    elif menu == '김영수를 소개합니다':
       # menu = st.radio('김영수',['김','영','수'],index=None)
       tab1, tab2, tab3 = st.tabs(["김", "영", "수"])
-       with tab1:
+      with tab1:
          st.header("김영수는t")
-       with tab2:
+      with tab2:
          st.header('영')
-       with tab3:
+      with tab3:
         st.header('수')
       
      
