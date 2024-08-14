@@ -25,8 +25,8 @@ if user_id == 'abc' and user_pw =='1234' :
      fm.food_main()
    elif menu == '영수는 누구일까요?':
       menu=st.radio('김영수',['김','영','수'],index=None)
-      if menu == '영' :
-         st.write('영원히 사랑스러운)
+      if menu == "영" :
+         st.write('영원히 사랑스러운')
                 
   
                      
