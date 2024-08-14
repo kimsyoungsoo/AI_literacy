@@ -32,7 +32,7 @@ if user_id == 'abc' and user_pw =='1234' :
          st.header('영원히 빛날 꿈을 갖고')
       with tab3:
         # st.header('수많은 노력으로 파이썬을 배우고 있다')
-        tab3.write(수많은 노력으로 파이썬을 배우고 있다)
+        tab3.write('수많은 노력으로 파이썬을 배우고 있다')
      
   
                      
