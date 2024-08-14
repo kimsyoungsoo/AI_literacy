@@ -27,11 +27,11 @@ if user_id == 'abc' and user_pw =='1234' :
       # menu = st.radio('김영수',['김','영','수'],index=None)
       tab1, tab2, tab3 = st.tabs(["김", "영", "수"])
       with tab1:
-         st.header("김영수는 지금")
+         st.header("김>> 김영수는 지금")
       with tab2:
-         st.header('영원히 빛날 꿈을 갖고')
+         st.header('영>> 영원히 빛날 꿈을 갖고')
       with tab3:
-        # st.header('수많은 노력으로 파이썬을 배우고 있다')
+        st.header('수')
         tab3.write('수많은 노력으로 파이썬을 배우고 있다')
      
   
